@@ -2,9 +2,9 @@
     Coded by Parth Pandya
     Problem Statement:- Creating a dynamic list with values ranging from 0 - 9, when the user wants to increment the last value of the 
                         list is incremented, if the value exceeds the value 9 ,the element is reset to 0 and its previous neighbouring 
-                        element is incremented by one. If no neighbour is left a new member must be created will the value 1.
+                        element is incremented by one. If no neighbour is left a new member must be created will the value 1.(Amazon asked medium level)
                           
-          Eg:- List:- 7 8 8             |List:- 7 8 9             |List:- 9 9
+          Eg:- List:- 7 8 8             |List:- 7 8 9             |List:- 9 9                   
                List:- 7 8 9 (increment) |List:- 7 9 0 (increment) |List:- 1 0 0 (increment)
 */
 #include <stdio.h>// header files
